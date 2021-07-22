@@ -1,0 +1,32 @@
+{
+    "name": "aosho235-personal-settings",
+    "displayName": "aosho235 personal settings",
+    "description": "",
+    "publisher": "aosho235",
+    "version": "0.0.4",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/aoyama-val/aosho235-personal-settings.git"
+    },
+    "engines": {
+        "vscode": "^1.58.0"
+    },
+    "categories": [
+        "Keymaps"
+    ],
+    "contributes": {
+        "menus": {
+            "editor/context": [
+                {
+                    "command": "extension.runJest",
+                    "group": "personal",
+                    "when": "editorTextFocus"
+                },
+                {
+                    "command": "copyFilePath",
+                    "group": "personal"
+                }
+            ]
+        }
+    }
+}
