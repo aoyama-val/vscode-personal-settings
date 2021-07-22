@@ -6,7 +6,7 @@
     "version": "0.0.4",
     "repository": {
         "type": "git",
-        "url": "https://github.com/aoyama-val/aosho235-personal-settings.git"
+        "url": "https://github.com/aoyama-val/vscode-personal-settings.git"
     },
     "engines": {
         "vscode": "^1.58.0"
